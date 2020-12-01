@@ -1,4 +1,4 @@
-![purwadhika](https://dm2302files.storage.live.com/y4mAdUDQA86ey73mpeq7KN_jzq9CeBz4fMD6S3V7M9oYrmWzbIvwOjK28wOpDkVRwP9cqLZgn-hIl8ZA_WjveGd75wjoMVUQ-PvS5FnJkvDNCR2LGPawDRMz1QWqnfAfX_5NnXSCy0uFIRwl3gW4lCqUQv8PTa_LhQsPGga5gikgAksf-9MVwECZewNcbtCzcUd?width=165&height=25&cropmode=none)
+![purwadhika](https://dm2302files.storage.live.com/y4mXzhUZVMNL_p9tVgW1HqlEUJa6ppyVCfKnxxFC4x5nfuSs_-NnMTSOFdPq6MIGrxKEZW8uGWVreQ9awWZboO6NydIZpac87UZ48QL0Y40HZv-uJOAAqVADo9m_ZBZ5ThfKAaFnCabsFufrOnkmjwdWVsaFcPVmaha7sQOlW0jmQwbbEGmbVih8UC2ouXKKdRs?width=256&height=39&cropmode=none)
 
 Sebelum anda mengerjakan soal ujian, pastikan anda memiliki akun **GitHub** dan ***software git*** sudah terinstall dilaptop. Anda dapat memastikan bahwa **git** sudah terinstall dilaptop anda dengan menjalankan perintah berikut ini diterminal atau ***cmd*** : ``` git --version ```. Jika muncul *versi git* maka komputer anda sudah terinstal *git*.
 

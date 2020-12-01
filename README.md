@@ -3,7 +3,7 @@
 ---
 Sebelum anda mengerjakan soal ujian, pastikan anda memiliki akun **GitHub** dan ***software git*** sudah terinstall dilaptop. Anda dapat memastikan bahwa **git** sudah terinstall dilaptop anda dengan menjalankan perintah berikut ini diterminal atau ***cmd*** : ``` git --version ```. Jika muncul *versi git* maka komputer anda sudah terinstal *git*.
 
-Soal ujian dapat anda temukan didalam repositori ini atau anda dapat melihatnya melalui *[link](https://github.com/alee0510/REMIDIAL_FUND_JCWM15/blob/main/soal_remidial_FUND_JCWM15.pdf)* berikut ini :
+Soal ujian dapat anda temukan didalam repositori ini atau anda dapat melihatnya melalui *[link ini](https://github.com/alee0510/REMIDIAL_FUND_JCWM15/blob/main/soal_remidial_FUND_JCWM15.pdf)*
 
 Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam mengerjakan soal-soal ujian berikut ini.
 

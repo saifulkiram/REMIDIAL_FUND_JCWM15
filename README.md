@@ -21,7 +21,7 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
     to : operational_jkt@purwadhika.com <br>
     subject : JCWM15-JKT-REMED_FUNDAMENTAL
 
-## Exam Guide
+## Exam Setup Guide
 - sebelum mengerjakan soal, lakukan ***Fork*** untuk repositori ini
     ![guide_1](https://dm2302files.storage.live.com/y4mPM_i6lwI5k82Ir4gCZ_iG2pyP67UhSVdVDnXxY7pavQzUXOFoRhblnD7tH4UyyvIdMs5jKUeX04maDpMg8lm2xVybajcR4oKSo13SyRlQoizTsMIaBj1oRcS1X3hOXahuJ0S9RM64NNzskC016XEiY8SVoAORMWYw9twz0MNgzgebD8G-fqIiwFdk4n8KSky?width=597&height=341&cropmode=none)
 

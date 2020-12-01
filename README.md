@@ -73,8 +73,8 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 
 - lakukan *pull request* dan pastikan bahwa
     1. **HEAD repository** berasal dari repositori kalian dan **branch** berasal dari *branch* tempat anda mengerjakan soal, **BASE respository** menuju repositori asal dan *branch* **master**
-    2. beri informasi *pull request* berupa : nama-program-EXAM_FUNDAMENTAL
-    <br>e.x. : alee-JCWM15-EXAM_FUNDAMENTAL
+    2. beri informasi *pull request* berupa : nama-program-REMED_FUNDAMENTAL
+    <br>e.x. : alee-JCWM15-REMED_FUNDAMENTAL
     
     ![guide_5](./assets/guide_05.jpg)
 

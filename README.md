@@ -1,5 +1,6 @@
 ![purwadhika](https://dm2302files.storage.live.com/y4mXzhUZVMNL_p9tVgW1HqlEUJa6ppyVCfKnxxFC4x5nfuSs_-NnMTSOFdPq6MIGrxKEZW8uGWVreQ9awWZboO6NydIZpac87UZ48QL0Y40HZv-uJOAAqVADo9m_ZBZ5ThfKAaFnCabsFufrOnkmjwdWVsaFcPVmaha7sQOlW0jmQwbbEGmbVih8UC2ouXKKdRs?width=256&height=39&cropmode=none)
 
+---
 Sebelum anda mengerjakan soal ujian, pastikan anda memiliki akun **GitHub** dan ***software git*** sudah terinstall dilaptop. Anda dapat memastikan bahwa **git** sudah terinstall dilaptop anda dengan menjalankan perintah berikut ini diterminal atau ***cmd*** : ``` git --version ```. Jika muncul *versi git* maka komputer anda sudah terinstal *git*.
 
 Soal ujian dapat anda temukan didalam repositori ini atau anda dapat melihatnya melalui *[link](https://github.com/alee0510/REMIDIAL_FUND_JCWM15/blob/main/soal_remidial_FUND_JCWM15.pdf)* berikut ini :

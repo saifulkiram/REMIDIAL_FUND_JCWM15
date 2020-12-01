@@ -22,10 +22,10 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 
 ## Exam Guide
 - sebelum mengerjakan soal, lakukan ***Fork*** untuk repositori ini
-    ![guide_1](./assets/guide_01.jpg)
+    ![guide_1](https://dm2302files.storage.live.com/y4mPM_i6lwI5k82Ir4gCZ_iG2pyP67UhSVdVDnXxY7pavQzUXOFoRhblnD7tH4UyyvIdMs5jKUeX04maDpMg8lm2xVybajcR4oKSo13SyRlQoizTsMIaBj1oRcS1X3hOXahuJ0S9RM64NNzskC016XEiY8SVoAORMWYw9twz0MNgzgebD8G-fqIiwFdk4n8KSky?width=597&height=341&cropmode=none)
 
 - kemudian *clone* repositori hasil *Forked* ke komputer kalian dengan cara *copy link forked respository* anda
-    ![guide_2](./assets/guide_02.jpg)
+    ![guide_2](https://dm2302files.storage.live.com/y4mngi9W5v2f4ScC1evMNDI3tFsCyCX8K0iDIiSiu2oEHRKrnqWoI2CBenLO05Gy5f2hv6JAfld8WBEFvECxOnJHnwTF26ZPQxvAtK8SIql7a7epnZqko-6c0oHyiZcT3wYkwzTwSLe_urvTzbP2LPa6qDF7E_lbo7yadTwbF0YDxdtYJIohYDPvTdMAdbm0N1u?width=637&height=410&cropmode=none)
 
 - buka terminal atau *cmd* dengan mengarah pada folder tempat anda akan menyimpan hasil *clone* dari repositori yang sudah anda *forked*, kemudian jalankan perintah ```git clone``` dan *paste link forked repository* anda
 
@@ -45,7 +45,7 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 
 - pastikan anda berada di-*branch* yang baru anda buat dengan cara lihat dipojok kiri bawah *vscode* dan anda akan melihat nama *branch* yang baru anda buat atau anda bisa menggunakan perintah : ``` git branch ``` di terminal atau cmd untuk melihat semua daftar *branch* yang ada di folder *project* anda, *branch* yang dipakai saat ini ditandai dengan warna hijau dan *nama-*branch*
 - buatlah sebuah folder dengan nama : NAMA-ANDA-PROGRAM, e.x. ALEE-JCWM15 <br>
-    ![guide_3](./assets/guide_03.jpg)
+    ![guide_3](https://dm2302files.storage.live.com/y4mvImwujueJ1NUb3nfaJD0bwJ_tORohUM7RouOuFgO4e-WgoHG-l8pbCcBxVbh4vsymibOBkwnfcfcglkxmCvZK3bxRVYHBii0VgVVg-cT7vaBaND453fB0omDRCeUldxn2AgdIzZV09fGarNu2Y0E_irkAPmWhw7AFC3daoF5qBLPLEKAXA4JjIZF_h_-_9Nl?width=513&height=296&cropmode=none)
 
 - kerjakanlah semua soal ujian didalam folder tersebut
 
@@ -69,16 +69,16 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
 
 - buka GitHub anda dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang anda *push* sudah ada di GitHub
 - jika sudah ada, maka akan ada *warning* untuk melakukan ```compare & pull request``` <br>
-    ![guide_4](./assets/guide_04.jpg)
+    ![guide_4](https://dm2302files.storage.live.com/y4mGa9MZeTWjTugH7OccfcgOb2Oni0Gutykiq0tuews5srteWd0dNZIAM6knsq4f1BqjX1rz0PHR1bd7qWK7mYR5KwrCUe_Z3VoC4bkQyDaNjuHCCpSvAoIUuHfwg72xr9oU6kmH6dv5Pz9G1uJkFtQmWH4wDqV5xrlh6fDNv-O-oeZpLGnG4cSkJB0fulX_5m4?width=456&height=203&cropmode=none)
 
 - lakukan *pull request* dan pastikan bahwa
     1. **HEAD repository** berasal dari repositori kalian dan **branch** berasal dari *branch* tempat anda mengerjakan soal, **BASE respository** menuju repositori asal dan *branch* **master**
     2. beri informasi *pull request* berupa : nama-program-REMED_FUNDAMENTAL
     <br>e.x. : alee-JCWM15-REMED_FUNDAMENTAL
     
-    ![guide_5](./assets/guide_05.jpg)
+    ![guide_5](https://dm2302files.storage.live.com/y4mzi5inOsdXi7C2WG_duPr5cpk3lujK569d6557wMWks9gYnX_5pcmrwD85-S-2beRZWr3bCYWdp7vm0li4E_eg_JAo9RbcpkhYlgLCjN1XZxByyUkij4-Mc683GZ3URkDFTv0LhPj6eqBIOLTAMN3GWCoZhueyslrYOd-k4_GGrUdYYNXe7kxkXIpF12TEmRq?width=934&height=591&cropmode=none)
 
 - jika *pull request* berhasil dan tidak terjadi konflik maka akan muncul info berikut ini
-    ![gudie_6]()
+    ![gudie_6](https://dm2302files.storage.live.com/y4m6d20-8wJHrBabe5o3boRoyLEkWPCmcvaz6z2nMFp8Qu4gVx9DBkXabQhTI8kDRAiaVshkOKYW5hX67J2SJuzwkD10vvnMPEw36Hb0c4f-sKPyNlpes8wKlB0Rqp6_-Ky1HGsw-rwuxGs-EN0x_50XsI2_ypPTpoaIZiduU-g8LAQS5OeUCdg_xVas0Fen4GY?width=939&height=138&cropmode=none)
 
 ## Selamat Mengerjakan Ujian ☺

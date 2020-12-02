@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Soal 1 Remedial Fundamental Saiful Kiram</title>
 </head>
 
 <body>
@@ -31,17 +31,22 @@
         console.log(word)
         let belah = word.split("")
         let arrayword = []
-        for (let a = 0; a < belah.length; a++) {
-            if (belah[a] == "a" || belah[a] == "i" || belah[a] == "u" || belah[a] == "e" || belah[a] == "o") {
-                arrayword.push(belah[a])
-            }
-        }
-        console.log(arrayword.length)
-        let hitung = arrayword.length
-        document.getElementById("ada").innerHTML = "ada"
-        document.getElementById("result").innerHTML = hitung
-        document.getElementById("belakang").innerHTML = "huruf vokal"
 
+        if (word === "") {
+            alert("input kosong")
+        }
+        else {
+            for (let a = 0; a < belah.length; a++) {
+                if (belah[a] == "a" || belah[a] == "i" || belah[a] == "u" || belah[a] == "e" || belah[a] == "o") {
+                    arrayword.push(belah[a])
+                }
+            }
+            console.log(arrayword.length)
+            let hitung = arrayword.length
+            document.getElementById("ada").innerHTML = "ada"
+            document.getElementById("result").innerHTML = hitung
+            document.getElementById("belakang").innerHTML = "huruf vokal"
+        }
     }
 
     function hurufvokal() {
@@ -49,18 +54,22 @@
         console.log(word)
         let belah = word.split("")
         let arrayword = []
-        for (let a = 0; a < belah.length; a++) {
-            if (belah[a] == "a" || belah[a] == "i" || belah[a] == "u" || belah[a] == "e" || belah[a] == "o") {
-                arrayword.push(belah[a])
-            }
+        if (word === "") {
+            alert("input kosong")
         }
+        else {
+            for (let a = 0; a < belah.length; a++) {
+                if (belah[a] == "a" || belah[a] == "i" || belah[a] == "u" || belah[a] == "e" || belah[a] == "o") {
+                    arrayword.push(belah[a])
+                }
+            }
 
-        let showvokal = arrayword
+            let showvokal = arrayword
 
-        document.getElementById("ada").innerHTML = ""
-        document.getElementById("result").innerHTML = showvokal
-        document.getElementById("belakang").innerHTML = ""
-
+            document.getElementById("ada").innerHTML = ""
+            document.getElementById("result").innerHTML = showvokal
+            document.getElementById("belakang").innerHTML = ""
+        }
     }
 
     function tanpavokal() {
@@ -68,19 +77,24 @@
         let belah = word.split("")
         let vokal = []
         let konsonan = []
-        for (let a = 0; a < belah.length; a++) {
-            if (belah[a] == "a" || belah[a] == "i" || belah[a] == "u" || belah[a] == "e" || belah[a] == "o") {
-                vokal.push(belah[a])
-            }
-            else { konsonan.push(belah[a]) }
+        if (word === "") {
+            alert("input kosong")
         }
-        console.log(konsonan.join(""))
+        else {
+            for (let a = 0; a < belah.length; a++) {
+                if (belah[a] == "a" || belah[a] == "i" || belah[a] == "u" || belah[a] == "e" || belah[a] == "o") {
+                    vokal.push(belah[a])
+                }
+                else { konsonan.push(belah[a]) }
+            }
+            console.log(konsonan.join(""))
 
-        let shownonvokal = konsonan.join("")
+            let shownonvokal = konsonan.join("")
 
-        document.getElementById("ada").innerHTML = ""
-        document.getElementById("result").innerHTML = shownonvokal
-        document.getElementById("belakang").innerHTML = ""
+            document.getElementById("ada").innerHTML = ""
+            document.getElementById("result").innerHTML = shownonvokal
+            document.getElementById("belakang").innerHTML = ""
+        }
     }
 
 

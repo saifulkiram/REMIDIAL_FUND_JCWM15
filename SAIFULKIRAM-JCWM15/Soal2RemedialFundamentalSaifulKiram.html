@@ -26,6 +26,7 @@
     <input type="text" id="namaproduk" placeholder="Product Name">
     <input type="number" id="hargaproduk" placeholder="Product Price">
     <br>
+    <br>
     <span>Category :</span>
     <input name="jenis" type="radio" value="Food">Food
     <input name="jenis" type="radio" value="Drink">Drink
@@ -140,7 +141,7 @@
             hasil1 = document.getElementsByName("jenis")[i]
         }
 
-        if (nama === "" && harga === "") {
+        if (nama.value === "" && harga.value === "") {
             alert("input masih kosong")
         }
         else {

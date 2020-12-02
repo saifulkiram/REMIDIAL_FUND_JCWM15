@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table, tr, td, th {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 10px;
+    }
+
+    td {
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Form Product</h1>
+    <br>
+
+    <input type="text" id="namaproduk" placeholder="Product Name">
+    <input type="number" id="hargaproduk" placeholder="Product Price">
+    <br>
+    <span>Category :</span>
+    <input name="jenis" type="radio" value="Food">Food
+    <input name="jenis" type="radio" value="Drink">Drink
+    <input name="jenis" type="radio" value="Others">Others
+    <br>
+    <br>
+    <button onclick="tambahin()">Add</button>
+    <br>
+    <br>
+
+    <table id="daftar-produk">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="isitable"></tbody>
+    </table>
+
+</body>
+<script>
+
+    let dataproduk = [
+        {
+            nomor: 1,
+            nama: "Apel",
+            harga: 5000,
+            kategori: "Food"
+        },
+        {
+            nomor: 2,
+            nama: "Milk",
+            harga: 7000,
+            kategori: "Drink"
+        },
+        {
+            nomor: 3,
+            nama: "Tisu",
+            harga: 2000,
+            kategori: "Other"
+        }
+    ]
+
+
+    class bikinproduk {
+        constructor(nomor, nama, harga, kategori,) {
+                this.nomor = nomor,
+                this.nama = nama,
+                this.harga = harga,
+                this.kategori = kategori
+        }
+    }
+
+    function listproduk(ini) {
+        let isi = document.getElementById("isitable")
+
+        let show = ""
+
+        for (let a = 0; a < dataproduk.length; a++) {
+            if (ini === a) {
+                show += `
+                <tr>
+                    <td></td>
+                    <td>
+                        <input id="rubahnama" type="text" value="${dataproduk[a].nama}">
+                    </td>
+                    <td>
+                        <input id="rubahharga" type="number" value="${dataproduk[a].harga}">
+                    </td>
+                    <td>
+                        <input name="jenis2" type="radio" value="Food">Food
+                        <input name="jenis2" type="radio" value="Drink">Drink
+                        <input name="jenis2" type="radio" value="Others">Others
+                    </td>
+                    <td>
+                        <button onclick="simpanperubahan(${a})">Save ✔</button>
+                        <button onclick="batalkanperubahan()">Cancel ❌</button>
+                    </td>
+                </tr>
+                `
+            }
+            else {
+                show += `
+                <tr>
+                    <td>${a + 1}</td>
+                    <td>${dataproduk[a].nama}</td>
+                    <td>${dataproduk[a].harga}</td>
+                    <td>${dataproduk[a].kategori}</td>
+                    <td>
+                        <button onclick="perubahan(${a})">Edit 🛠</button>
+                        <button onclick="hapus(${a})">Delete ❌</button>
+                    </td>
+                </tr>
+            `
+            }
+        }
+        isi.innerHTML = show
+    }
+
+    listproduk()
+
+    function tambahin() {
+        let nama = document.getElementById("namaproduk")
+        let harga = document.getElementById("hargaproduk")
+        let getkategori = document.getElementsByName("jenis")
+        for (i=0;i<getkategori.length; i++){
+            if(getkategori[i].checked)
+            hasil1 = document.getElementsByName("jenis")[i]
+        }
+
+        if (nama === "" && harga === "") {
+            alert("input masih kosong")
+        }
+        else {
+            dataproduk.push(new bikinproduk(
+                dataproduk.length + 1,
+                nama.value,
+                harga.value,
+                hasil1.value
+
+            ))
+        }
+
+        
+
+        listproduk()
+        console.log("tombolditekan")
+    }
+
+    function perubahan(isi){
+        listproduk(isi)
+    }
+
+    function simpanperubahan(ini){
+        let rubahNama = document.getElementById("rubahnama").value
+        let rubahHarga = document.getElementById("rubahharga").value
+        let getkategori = document.getElementsByName("jenis2")
+        for (i=0;i<getkategori.length; i++){
+            if(getkategori[i].checked)
+            hasil1 = document.getElementsByName("jenis2")[i]
+        }
+
+        dataproduk[ini].nama = rubahNama
+        dataproduk[ini].harga = rubahHarga
+        dataproduk[ini].kategori = hasil1.value
+
+        listproduk()
+    }
+
+    function hapus (isi){
+        dataproduk.splice(isi, 1)
+        listproduk ()
+    }
+
+    function batalkanperubahan(){
+        listproduk()
+    }
+
+</script>
+
+</html>

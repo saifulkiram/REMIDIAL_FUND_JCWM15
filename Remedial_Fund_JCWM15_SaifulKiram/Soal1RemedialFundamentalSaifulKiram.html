@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Masukan Kata :</h2>
+    <input id="input" type="text" placeholder="Masukan sebuah kata">
+    <br>
+    <br>
+    <button onclick="hitungvokal()"> HITUNG VOKAL </button>
+    <button onclick="hurufvokal()"> HURUF VOKAL </button>
+    <button onclick="tanpavokal()"> TANPAVOKAL </button>
+    <br>
+    <h3> Hasil : </3> <span id="ada"> </span> <span id="result"> </span> <span id="belakang"></span>
+
+
+
+
+</body>
+<script>
+
+
+    // Tugas 1 - Hitung Jumlah Huruf Vokal
+    function hitungvokal() {
+        let word = document.getElementById("input").value
+        console.log(word)
+        let belah = word.split("")
+        let arrayword = []
+        for (let a = 0; a < belah.length; a++) {
+            if (belah[a] == "a" || belah[a] == "i" || belah[a] == "u" || belah[a] == "e" || belah[a] == "o") {
+                arrayword.push(belah[a])
+            }
+        }
+        console.log(arrayword.length)
+        let hitung = arrayword.length
+        document.getElementById("ada").innerHTML = "ada"
+        document.getElementById("result").innerHTML = hitung
+        document.getElementById("belakang").innerHTML = "huruf vokal"
+
+    }
+
+    function hurufvokal() {
+        let word = document.getElementById("input").value
+        console.log(word)
+        let belah = word.split("")
+        let arrayword = []
+        for (let a = 0; a < belah.length; a++) {
+            if (belah[a] == "a" || belah[a] == "i" || belah[a] == "u" || belah[a] == "e" || belah[a] == "o") {
+                arrayword.push(belah[a])
+            }
+        }
+
+        let showvokal = arrayword
+
+        document.getElementById("ada").innerHTML = ""
+        document.getElementById("result").innerHTML = showvokal
+        document.getElementById("belakang").innerHTML = ""
+
+    }
+
+    function tanpavokal() {
+        let word = document.getElementById("input").value
+        let belah = word.split("")
+        let vokal = []
+        let konsonan = []
+        for (let a = 0; a < belah.length; a++) {
+            if (belah[a] == "a" || belah[a] == "i" || belah[a] == "u" || belah[a] == "e" || belah[a] == "o") {
+                vokal.push(belah[a])
+            }
+            else { konsonan.push(belah[a]) }
+        }
+        console.log(konsonan.join(""))
+
+        let shownonvokal = konsonan.join("")
+
+        document.getElementById("ada").innerHTML = ""
+        document.getElementById("result").innerHTML = shownonvokal
+        document.getElementById("belakang").innerHTML = ""
+    }
+
+
+</script>
+
+</html>
